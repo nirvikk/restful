@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RESTful Labs</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="bootstrap/js/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse" id="headernav"  data-spy="affix" >
+  <ul class="nav navbar-nav">
+    <li><a href="index.html" class="fa fa-home"> Home</a></li>
+    <li><a href="blog.html" class="fa fa-rss"> Blog</a></li>
+    <li class="active"><a href="about.html" class="fa fa-users"> Who we are</a></li>
+  </ul>
+</nav>
+
+<div class="container-fluid" id="containercustom">
+<h3>The About us page</h3>
+<p>Here we will have contents </p>
+  <div class="panel panel-primary">
+  <!-- Default panel contents -->
+  <div class="panel-heading"><i class="fa fa-code"></i> Developers</div>
+  <div class="panel-body">
+    <div class="well">
+    <p>Following are REST developers who have been working in various organizations till date. The table provides the information about them, the necessary social links to know them and the works they have contributed to</p>
+  </div>
+  </div>
+
+  <!-- Table -->
+  <table class="table">
+    <tr><th>Designation</th><th>Name</th><th>Links</th><th>Speciality</th></tr>
+    <tr><td>CEO</td><td>Ashish Thapa</td><td><a href="#" class="fa fa-github"> </a> <a href="#" class="fa fa-facebook"> </a> <a href="#" class="fa fa-google"> </a> <a href="#" class="fa fa-envelope"> </a> <a href="#" class="fa fa-linkedin"> </a></td><td>Java</td></tr>
+    <tr><td>Manager</td><td>Nirvik Khanal</td><td><a href="#" class="fa fa-github"> </a> <a href="#" class="fa fa-twitter"> </a> <a href="#" class="fa fa-facebook"> </a> <a href="#" class="fa fa-google"> </a> <a href="#" class="fa fa-envelope"> </a> <a href="#" class="fa fa-linkedin"> </a></td><td>Ruby on Rails</td></tr>
+    <tr><td>Java Dev</td><td>Prakash Sankhi</td><td><a href="#" class="fa fa-github"> </a> <a href="#" class="fa fa-facebook"> </a> <a href="#" class="fa fa-google"> </a> <a href="#" class="fa fa-envelope"> </a> <a href="#" class="fa fa-linkedin"> </a></td><td>Java</td></tr>
+    <tr><td>Web Designer</td><td>Shiva Poudel</td><td><a href="#" class="fa fa-github"> </a> <a href="#" class="fa fa-facebook"> </a> <a href="#" class="fa fa-google"> </a> <a href="#" class="fa fa-envelope"> </a> <a href="#" class="fa fa-linkedin"> </a></td><td>Front End Design</td></tr>
+    <tr><td>Web Developer</td><td>Subash Chhettri</td><td><a href="#" class="fa fa-github"> </a> <a href="#" class="fa fa-facebook"> </a> <a href="#" class="fa fa-google"> </a> <a href="#" class="fa fa-envelope"> </a> <a href="#" class="fa fa-linkedin"> </a></td><td>PHP</td></tr>
+    <tr><td>DevOps Engineer</td><td>Sudeep Parajuli</td><td><a href="#" class="fa fa-github"> </a> <a href="#" class="fa fa-facebook"> </a> <a href="#" class="fa fa-google"> </a> <a href="#" class="fa fa-envelope"> </a> <a href="#" class="fa fa-linkedin"> </a></td><td>Docker</td></tr>
+  </table>
+  </div> <!-- Panel ends -->
+  <div class="jumbotron">
+    <div class="row">
+      <div class ="col-md-8">
+    <ul><p><span><i class="fa fa-compass"> Find us out</i></span></p></ul>
+    <ul><i class="fa fa-map-marker"></i>
+ We are located somewhere in Kathmandu!</ul>
+              <!-- Trigger the modal with a button -->
+        <ul><span><i class="fa fa-map" data-toggle="modal" data-target="#mapmodal"> Click to View on Map</i></span></ul>
+        
+      </div>
+    <div class="col-md-4">
+        <p><span><i class="fa fa-user-plus" data-toggle="modal" data-target="#devmodal"> Become a RESTful developer</i></span></p>
+        
+    </div>
+    </div>
+
+  </div> <!-- Jumbotron ends -->
+</div> <!-- Container ends -->
+<footer id="footer">
+<nav class="navbar navbar-default" id="footernav">
+<ul class="nav navbar-nav">
+  <li><a href="#" class="fa fa-arrow-up"> Back to top</a>
+  </li>
+  <li><a href="#" class="fa fa-twitter"> </a>
+  </li>
+  <li><a href="#" class="fa fa-facebook"> </a>
+  </li>
+  <li><a href="#" class="fa fa-google"> </a>
+  </li>
+  <li><a href="#" class="fa fa-github"> </a>
+  </li>
+</ul>
+</nav>
+</footer>
+<!-- mapModal -->
+        <div id="mapmodal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                
+                <h4 class="modal-title">RESTful Labs</h4>
+              </div>
+              <div class="modal-body">
+                 View on Google Map <i class="fa fa-hand-o-down"></i>
+                <div class="row">
+                  <div class="col-md-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.7117048167142!2d85.31497321442504!3d27.726186231272038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb191f1f05710b%3A0x413e570599a8a4!2sBal+Kumari+Marg%2C+Kathmandu+44600!5e0!3m2!1sen!2snp!4v1456983976332"></iframe>
+              </div>
+              <div class= "col-md-6">
+                  <ul>
+                    <i class="fa fa-phone"></i> <strong>+977-9841123456</strong>
+                  </ul>
+                  <ul>
+                    <i class="fa fa-map-marker"></i> <strong>Ranibari, Samakhusi, Kathmandu, Nepal</strong>
+                  </ul>
+                  <ul>
+                    <i class="fa fa-envelope"></i> <strong>something@email.com</strong>
+                  </ul>
+              </div>
+            </div><!-- end of row -->
+              </div><!-- end of modal body -->
+              <div class="modal-footer">
+                <i class="fa fa-times" data-dismiss="modal"></i>
+              </div>
+            </div><!-- end of modal content -->
+
+          </div><!-- end of modal dialog -->
+        </div><!-- end of modal -->
+
+<!-- Modal -->
+        <div id="devmodal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                
+                <h4 class="modal-title">RESTful Community <i class="fa fa-users"></i></h4>
+                <small>Become a RESTful Dev</small>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <ul>
+                  <fieldset class="form-group">
+                    <label for="name"><i class="fa fa-user"></i> Name</label>
+                    <input type="name" class="form-control" id="name" placeholder="Enter your name">
+                  </fieldset>
+                  </ul>
+                  <ul>
+                  <fieldset>
+                    <label for="exampleInputEmail1"><i class="fa fa-envelope"></i> Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  </fieldset>
+                  </ul>
+                  <ul>
+                  <fieldset>
+                    <label for="exampleInputPhone"><i class="fa fa-phone"></i> Phone Number</label>
+                    <input type="number" class="form-control" id="exampleInputPhone" placeholder="Enter your phone number">
+                    <small class="text-muted">We'll never share your number with anyone else.</small>
+                  </fieldset>
+                  </ul>
+                  <ul>
+                  <fieldset>
+                    <label for="exampleInputFile"><i class="fa fa-file-text-o"></i> <i class="fa fa-upload"></i>
+
+                      Upload CV</label>
+                    <input type="file" class="form-control-file" id="exampleInputFile">
+                  </fieldset>
+                  </ul>
+                  <ul>
+                  <fieldset>
+                    <label for="exampleTextarea"><i class="fa fa-comment"></i>
+                      A brief note</label>
+                    <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Explain how we can help you help us"></textarea>
+                  </fieldset>
+                  </ul>
+                  <ul><button type="submit" class="btn btn-primary">Submit</button></ul>
+                </form>
+              </div><!-- end of modal body -->
+              <div class="modal-footer">
+                <i class="fa fa-times" data-dismiss="modal"></i>
+              </div>
+            </div><!-- end of modal content -->
+
+          </div><!-- end of modal dialog -->
+        </div><!-- end of modal -->
+
+</body>
+</html>

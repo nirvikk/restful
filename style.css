@@ -1,0 +1,36 @@
+.quotesarea{
+	    background-color: blue;
+	    color:#fff;
+	    height:200px;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #564215;
+    color: #ffffff;
+}
+
+#containercustom{
+	height: 700px;
+}
+.affix {
+      top: 0;
+      width: 100%;
+
+  }
+
+.affix + .container-fluid {
+      padding-top: 70px;
+  }
+
+#footernav{
+	background-color: #035223;
+	border-color: #E7E7E7;
+  border-radius: 0 !important;
+}
+
+#headernav{
+  border-radius: 0 !important;
+}
