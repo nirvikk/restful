@@ -34,3 +34,9 @@
 #headernav{
   border-radius: 0 !important;
 }
+
+#socialheader{
+  background-color:#F44336;
+  color:#fff;
+  height:100px;
+}
